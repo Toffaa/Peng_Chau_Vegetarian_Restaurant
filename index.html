@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Meal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+            color: #212529;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 1rem;
+        }
+        .intro {
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            color: #343a40;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .meal-options {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .meal {
+            padding: 1rem;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            background-color: #ffffff;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            font-weight: 500;
+        }
+        .meal:hover {
+            background-color: #212529;
+            color: #f8f9fa;
+        }
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #6c757d;
+        }
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Lian'an Vegeterian Restaurant !</h1>
+    <h2>How to order</h2>
+    <div class="intro">
+        Pick 2/3 dishes from the list below and verify they are available on the wall at the end of the restaurant. It will be served with rice and soup. Bon appetit !
+    </div>
+    
+    <div class="meal-options">
+        <div class="meal">🍕 Pizza</div>
+        <div class="meal">🍔 Burger</div>
+        <div class="meal">🥗 Salad</div>
+    </div>
+    <footer>
+        <p>Made with ❤️ and hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+    </footer>
+</body>
+</html>
